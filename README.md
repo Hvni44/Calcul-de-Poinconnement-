@@ -7,7 +7,7 @@ Une application de bureau moderne et intuitive développée pour les ingénieurs
 
 ## Capture d'écran
 
-![Capture d'écran de l'application Calcul de Poinçonnement](https://raw.githubusercontent.com/VOTRE_NOM_UTILISATEUR/VOTRE_DEPOT/main/screenshot.png)
+![Capture d'écran de l'application Calcul de Poinçonnement](https://github.com/Hvni44/Calcul-de-Poinconnement-/blob/main/screenshot.png)
 
 ## Fonctionnalités
 
