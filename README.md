@@ -31,7 +31,7 @@ Une application de bureau moderne et intuitive développée pour les ingénieurs
 
 La manière la plus simple d'utiliser le logiciel est de télécharger la dernière version exécutable.
 
-1.  Allez sur la page [**Releases**](https://github.com/VOTRE_NOM_UTILISATEUR/VOTRE_DEPOT/releases) de ce dépôt.
+1.  Allez sur la page [**Releases**](https://github.com/Hvni44/Calcul-de-Poinconnement-/releases) de ce dépôt.
 2.  Téléchargez le fichier `CalculPoinconnement.exe` depuis la dernière version.
 3.  Placez le fichier où vous le souhaitez et double-cliquez dessus pour le lancer. Aucune installation n'est requise.
 
