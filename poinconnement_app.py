@@ -2,9 +2,7 @@ import customtkinter as ctk
 import math
 from tkinter import messagebox
 
-# =============================================================================
-#  BLOC 1: LOGIQUE DE CALCUL (INCHANGÉE)
-# =============================================================================
+
 
 def calculate_k_for_beta(c1, c2):
     if c2 == 0: return 0.8
@@ -74,9 +72,7 @@ def perform_punching_check(data, element_type):
         results['verdict'] = "OK" if results['ratio'] <= 1 else "NON OK"
     return results
 
-# =============================================================================
-#  BLOC 2: INTERFACE GRAPHIQUE AVEC SIGNATURE
-# =============================================================================
+
 
 class PunchingShearApp(ctk.CTk):
     def __init__(self):
@@ -87,19 +83,16 @@ class PunchingShearApp(ctk.CTk):
         
         ctk.set_appearance_mode("dark")
 
-        # Configuration de la grille principale
+ 
         self.grid_columnconfigure(0, weight=1)
         self.grid_columnconfigure(1, weight=1)
-        self.grid_rowconfigure(1, weight=1) # Rangée 1 (contenu) s'étendra
-        # Rangée 0 (header) et 2 (footer) auront une hauteur fixe
-
-        # --- Création des widgets ---
+        self.grid_rowconfigure(1, weight=1) 
         self.entries = {}
         self.result_labels = {}
         self.create_header_widgets()
         self.create_input_widgets()
         self.create_output_widgets()
-        self.create_footer() # NOUVEAU: Pied de page avec signature
+        self.create_footer() 
 
     def create_header_widgets(self):
         header_frame = ctk.CTkFrame(self, fg_color="transparent")
